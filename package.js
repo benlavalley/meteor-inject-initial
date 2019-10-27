@@ -34,8 +34,8 @@ function configurePackage(api) {
 
 	api.use(['routepolicy', 'webapp'], 'server');
 	api.use(['ejson', 'underscore', 'ecmascript'], ['client', 'server']);
-	// api.mainModule('lib/namespace.js', ['server', 'client']);
-	api.mainModule('lib/namespace.js', 'server');
+	api.mainModule('lib/namespace.js', ['server', 'client']);
+	// api.mainModule('lib/namespace.js', 'server');
 	api.addFiles('lib/inject-server.js', 'server');
 	api.addFiles('lib/inject-core.js', 'server');
 	api.addFiles('lib/inject-client.js', 'client');
