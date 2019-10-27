@@ -11,8 +11,7 @@ Npm.depends({
 
 Package.onUse(function (api) {
 	configurePackage(api);
-	api.export('InjectInitial', 'server');
-	api.export(['Injected', 'Inject'], 'client');
+	api.export(['InjectInitial'], ['client', 'server']);
 });
 
 Package.on_test(function (api) {
