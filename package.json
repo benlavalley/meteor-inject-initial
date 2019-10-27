@@ -1,0 +1,33 @@
+{
+  "name": "inject-initial",
+  "version": "1.0.5",
+  "description": "Runs initial data injection before Meteor starts processing routes...",
+  "main": "package.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-meteor": "^4.2.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benlavalley/meteor-inject-initial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benlavalley/meteor-inject-initial/issues"
+  },
+  "homepage": "https://github.com/benlavalley/meteor-inject-initial#readme"
+}
