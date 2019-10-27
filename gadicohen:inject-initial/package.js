@@ -1,8 +1,10 @@
+// keeping this here as an example of how to allow a package override another package.
+
 Package.describe({
 	summary: 'Deprecated.  Use meteorhacks:inject-initial instead.',
 	version: '1.0.2',
 	git: 'https://github.com/meteorhacks/meteor-inject-initial.git',
-	name: 'gadicohen:inject-initial',
+	name: 'PACKAGE_DOESNT_EXIST________gadicohen:inject-initial',
 });
 
 Package.on_use(function (api) {
