@@ -1,7 +1,7 @@
 {
   "name": "inject-initial",
   "version": "1.0.5",
-  "description": "Runs initial data injection before Meteor starts processing routes...",
+  "description": "Runs initial data injection before Meteor starts processing routes.",
   "main": "package.js",
   "directories": {
     "lib": "lib",
